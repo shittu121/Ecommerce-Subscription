@@ -80,8 +80,8 @@ const SoftwareSubscriptionSite: React.FC = () => {
     <div className="min-h-screen">
       <Navbar />
       <div className="flex justify-center w-full border">
-        <div className="w-full mx-auto px-8">
-          {/* Left Column - Product Selection */}
+        <div className="w-full mx-auto px-6 lg:px-8 md:px-8">
+          {/* Product Selection */}
           <div className="block lg:flex justify-center pl-0 md:pl-4 items-center w-full gap-8 space-y-6">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -131,7 +131,7 @@ const SoftwareSubscriptionSite: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 px-12 py-12">
+      <div className="bg-gray-100 px-6 lg:px-8 md:px-8 py-12">
           {/* User Info & Payment Form */}
           <motion.div
               initial={{ opacity: 0, y: 20 }}

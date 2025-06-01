@@ -201,7 +201,7 @@ export function Canva() {
           plans={plans}
           defaultPlanIndex={0} // Start with Pro plan
           showAnnualDiscount={true}
-          annualDiscountText="Save 48%"
+          annualDiscountText=""
           annualDiscountBadgeClassName="border-green-500/30 text-green-600"
           testimonialRotationSpeed={6000}
           animationEnabled={true}
